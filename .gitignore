@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+*.tgz
+faviconTest/favicon.ico
+faviconTest/apple-touch-icon.png
+faviconTest/web-app-manifest-*.png
+faviconTest/site.webmanifest

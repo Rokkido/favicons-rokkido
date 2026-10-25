@@ -1,0 +1,30 @@
+{
+  "name": "favicons-rokkido",
+  "version": "0.1.0",
+  "description": "Generate favicon assets from a local SVG or PNG",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "test": "node --test test/generate.test.js",
+    "demo": "node scripts/generate-test.mjs"
+  },
+  "dependencies": {
+    "@visioncortex/vtracer": "1.0.0-alpha.4",
+    "png-to-ico": "3.0.2",
+    "sharp": "0.35.5"
+  }
+}
