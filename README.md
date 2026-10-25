@@ -7,10 +7,16 @@ Generate favicon files from a local `favicon.svg` or `favicon.png` in Node.js. T
 - Node.js 20.9 or later
 - A directory containing `favicon.svg`, `favicon.png`, or both
 
-The package is not published to npm yet. Install it from a local path. For example, if the package directory is next to your project:
+Install the published package in your project:
 
 ```sh
-npm install ../favicons-rokkido
+npm install favicons-rokkido
+```
+
+Before the first npm release, install a local checkout instead. For example, if the package directory is next to your project:
+
+```sh
+npm install ../favicons-rokkido --install-links
 ```
 
 Run `npm install` in this package directory if you are working on the package itself.
