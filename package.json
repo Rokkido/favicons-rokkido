@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Generate favicon assets from a local SVG or PNG",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rokkido/favicons-rokkido.git"
+  },
   "type": "module",
   "exports": {
     ".": {
